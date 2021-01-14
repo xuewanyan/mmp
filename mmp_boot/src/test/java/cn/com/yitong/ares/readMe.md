@@ -56,3 +56,9 @@
     ·日期处理类（Date）
     ·日期处理类（SimpleDateFormat）
     ·日期处理类（Calendar）
+    
+#java数字操作类   具体内容查看mathInfo包，-----2021-1-13
+    ·数字操作类（math类）
+    ·数字操作类（Random类）
+    ·数字操作类（BigInteger类）
+    ·数字操作类（BigDecimal类）
