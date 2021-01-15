@@ -62,3 +62,9 @@
     ·数字操作类（Random类）
     ·数字操作类（BigInteger类）
     ·数字操作类（BigDecimal类）
+    
+#java比较器  具体内容查看mathInfo包，-----2021-1-13
+    ·数组操作类：Arrays
+    ·Comparable接口
+    ·二叉树实现
+    ·Comparator接口
