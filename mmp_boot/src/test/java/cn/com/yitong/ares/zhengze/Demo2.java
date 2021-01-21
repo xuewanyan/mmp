@@ -27,9 +27,12 @@ public class Demo2 {
         String str5 = "13775712222";
         boolean b5 = str5.matches("(137|138|135|133)\\d{8}");
 
-        String str6 = "AAD/AA/";
+        String str6 = "AAD/AA/AA/DSDA/";
         boolean b6 = str6.matches("[A-Z]+/[A-Z]+/");
 
-        System.out.println(b6);
+        // 验证邮编 数字5-6位 不为000000
+        String str7 = "012345";
+        boolean b7 = str7.matches("\\d{5,6}^0?");
+        System.out.println(b7);
     }
 }
