@@ -22,6 +22,6 @@
         因为从JDK1.4之后，我们String类对正则做出了支持，增加如下的若干方法。
             
 #正则验证email地址 ---22分钟
-    
+    ``
 #java.util.regex包中的直接操作
     实际上String类中给出的一系列的操作，在Pattern和Mathcher类种都有支持。
