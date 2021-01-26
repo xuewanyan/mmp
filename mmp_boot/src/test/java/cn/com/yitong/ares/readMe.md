@@ -85,4 +85,9 @@
     ·定时调度
     ·UUID类    
     
-#java开发支持类库  具体内容查看taskInfo包，-----2021-1-25    
+#java数据库编程  具体内容查看jdbcInfo包，-----2021-1-25   
+    · JDBC简介
+    · 连接oracle数据库
+    · Statement数据操作接口
+    · PrearedStatement数据操作接口
+    · 批处理与事物处理 
