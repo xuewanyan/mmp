@@ -31,8 +31,12 @@ public class Demo2 {
         boolean b6 = str6.matches("[A-Z]+/[A-Z]+/");
 
         // 验证邮编 数字5-6位 不为000000
-        String str7 = "012345";
-        boolean b7 = str7.matches("\\d{5,6}^0?");
-        System.out.println(b7);
+        String str7 = "123450";
+        boolean b7 = str7.matches("[1-9]\\d{5}?");
+
+        // 验证 esb . three esb.two
+        String str8 = "three.esb";
+        boolean b8 = str8.matches("esb\\.three");
+        System.out.println(b8);
     }
 }

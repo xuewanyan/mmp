@@ -1,17 +1,14 @@
 package cn.com.yitong.ares.arrayInfo;
 
-/**
- * 整形数组
- */
+import java.util.Arrays;
+
+/** 整形数组 */
 public class Array {
 
-    private int[] data;
+    public Array(int len) {}
 
-    public Array(int len){
-        if(len < 0){
-
-        }else {
-
-        }
+    public static void main(String[] args) {
+        int data[] = new int[] {1, 2, 3, 4};
+        System.out.println(Arrays.toString(data));
     }
 }

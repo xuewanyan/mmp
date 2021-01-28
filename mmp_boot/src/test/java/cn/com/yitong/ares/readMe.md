@@ -91,3 +91,9 @@
     · Statement数据操作接口
     · PrearedStatement数据操作接口
     · 批处理与事物处理 
+    
+#java文件操作  具体内容查看fileInfo包，-----2021-1-27
+    ·File类基本操作
+    ·File类操作加强
+    ·File类操作方法
+    ·案例：列出目录结构 
