@@ -17,6 +17,7 @@ public class Demo6 {
         int len = 0;
         byte[] bytes = new byte[1024];
         while ((len = inputStream.read(bytes)) != -1) {
+            System.out.println(len);
             outputStream.write(bytes, 0, len);
         }
         inputStream.close();
