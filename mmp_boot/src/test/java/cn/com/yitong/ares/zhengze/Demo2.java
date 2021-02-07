@@ -37,6 +37,10 @@ public class Demo2 {
         // 验证 esb . three esb.two
         String str8 = "three.esb";
         boolean b8 = str8.matches("esb\\.three");
-        System.out.println(b8);
+
+        // 正则验证生日 2020-08-22
+        String str9 = "2120-08-22";
+        boolean b9 = str9.matches("\\d{4}\\-\\d{2}\\-\\d{2}");
+        System.out.println(b9);
     }
 }
