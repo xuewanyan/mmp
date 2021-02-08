@@ -129,3 +129,9 @@
 #java IO高级应用  具体内容查看liuInfo包，-----2021-2-7
     ·缓冲输入流
     ·Scanner扫描流
+    
+#java 对象序列化  具体内容查看serion包，-----2021-2-8(********************重要)
+    ·对象序列化基本概念
+    ·利用ObjectOutputStream类实现序列化操作
+    ·利用ObjectInputStream类实现序列化操作
+    ·transient关键字
