@@ -19,8 +19,10 @@ public class Demo6 {
                                                 + "网址集合.txt")));
 
         scanner.useDelimiter("\n");
+        StringBuffer stringBuffer = new StringBuffer();
         while (scanner.hasNext()) { // 循环  while
-            System.out.println(scanner.next());
+            stringBuffer.append(scanner.next());
         }
+        System.out.println(stringBuffer);
     }
 }

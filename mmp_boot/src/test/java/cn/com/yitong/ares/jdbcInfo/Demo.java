@@ -12,7 +12,7 @@ public class Demo {
         calendar.set(Calendar.MONTH, 11);
         calendar.set(Calendar.DATE, 7);
 
-        calendar.add(Calendar.DATE, 100);
+        calendar.add(Calendar.DATE, 99);
 
         System.out.println(
                 "增加100天后的日期："

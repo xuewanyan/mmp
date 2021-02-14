@@ -135,3 +135,42 @@
     ·利用ObjectOutputStream类实现序列化操作
     ·利用ObjectInputStream类实现序列化操作
     ·transient关键字
+    
+#java 类集合框架简介 具体内容查看collection包,-----2021-2-8
+    ·类集合框架简介
+    ·类集框架核心接口
+    
+#java List集合接口 具体内容查看collection包,-----2021-2-8 
+    ·List接口简介
+    ·Arraylist子类
+    ·Vector子类
+    ·LinkedList子类
+    
+#java Set集合接口 具体内容查看collection包,-----2021-2-8 
+    ·Set集合基本使用
+    ·分析TreeSet子类排序操作
+    ·分析HashSet重复元素消除
+    
+#java 集合的输出iterator 具体内容查看collection包,-----2021-2-9
+    · iterator迭代输出
+    · ListIterator双向迭代输出
+    · Enumeration枚举输出
+    · foreach输出
+    
+#java Map集合 具体内容查看collection包,-----2021-2-9
+    ·Map接口定义
+    ·HashMap子类
+    ·Hashtable子类
+    ·TreeMap子类
+    ·利用Iterator输出Map集合
+    ·自定义Map的key类型
+    
+#java 集合工具类 具体内容查看collection包,-----2021-2-10
+    ·Collections工具类
+    ·Stack（站）子类
+    
+#java Stream数据流 具体内容查看collection包,-----2021-2-10
+    ·Properties子类
+    ·Collection接口加强
+    ·数据流基本操作
+    ·MapReduce操作
