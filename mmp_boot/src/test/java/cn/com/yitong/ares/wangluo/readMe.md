@@ -15,7 +15,7 @@
         ·服务器：ServerSocket
         ·客户端：Socket,在网络中，每一个用户都使用Socket表示
 开发一个服务器端的代码：--------Demo1.java
-    服务器端的开发主要依靠的是ServerSocket程序类，在这个类中又如下的几个方法：
+    服务器端的开发主要依靠的是ServerSocket程序类，在这个类中又如下的几个方法R：
         ·构造：protected SSLServerSocket(int port) throws IOException
         ·等待客户端连接：public Socket accept()
     当取得了客户端的连接的Socket对象之后肯定需要进行一些信息的交互，在Socket定义有以下方法：

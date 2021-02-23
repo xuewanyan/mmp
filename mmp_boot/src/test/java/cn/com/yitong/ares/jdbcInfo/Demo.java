@@ -2,7 +2,6 @@ package cn.com.yitong.ares.jdbcInfo;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 public class Demo {
 
@@ -15,7 +14,7 @@ public class Demo {
         calendar.add(Calendar.DATE, 99);
 
         System.out.println(
-                "增加100天后的日期："
+                "增加后的日期："
                         + calendar.get(Calendar.YEAR)
                         + "年"
                         + calendar.get(Calendar.MONTH)
@@ -24,11 +23,5 @@ public class Demo {
                         + "日");
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        Date date = new Date();
-        System.out.println(simpleDateFormat.format(date));
-
-        long ll = date.getTime();
-
-        System.out.println(new java.sql.Date(ll));
     }
 }
