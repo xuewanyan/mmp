@@ -43,7 +43,7 @@ public class Demo1 {
 
         // 实现类的实例化对象 调用定指构造实例化对象 只有有参构造方法的实现 反射机制
         Class<?> clazz6 = Class.forName("cn.com.yitong.ares.fanshe.Person2");
-        Constructor<?> constructor = clazz6.getConstructor(String.class, int.class);
+        Constructor<?> constructor = clazz6.getConstructor(String.class, Integer.class);
         Person2 person2 = (Person2) constructor.newInstance("中出", 200);
         System.out.println("person2:" + person2);
 
@@ -82,7 +82,7 @@ class Person {
 class Person2 {
 
     private String name;
-    private int age;
+    private Integer age;
 
     public void setName(String name) {
         this.name = name;
@@ -94,7 +94,7 @@ class Person2 {
 
     public Person2() {}
 
-    public Person2(String name, int age) {
+    public Person2(String name, Integer age) {
         this.name = name;
         this.age = age;
     }

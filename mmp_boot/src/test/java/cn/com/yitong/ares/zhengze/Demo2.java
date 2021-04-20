@@ -42,5 +42,10 @@ public class Demo2 {
         String str9 = "2120-08-22";
         boolean b9 = str9.matches("\\d{4}\\-\\d{2}\\-\\d{2}");
         System.out.println(b9);
+
+        // 密码校验，首字母英文且大写，必须包含数据，特殊字符 -、，。等
+        String str10 = "XW40401114@";
+        boolean b10 = str10.matches("([A-Z]+\\w{10})(?![!@#$%^&*_-]+$)");
+        System.out.println(b10);
     }
 }

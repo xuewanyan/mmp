@@ -1,12 +1,15 @@
 package cn.com.yitong.ares.exception;
 
+import org.springframework.util.Assert;
+
 public class TestDemo {
 
     public static void main(String[] args) {
-        int num = 10;
-        //中间可能进行了3步num变量的处理
-        assert num == 100;// 断言错误，Num的内容不是100
-        System.out.println(num);
+        String idea = "";
+        tesu(idea);
+    }
 
+    public static void tesu(String idea) {
+        Assert.hasLength(idea, "idea must be not null");
     }
 }

@@ -5,7 +5,6 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.util.Arrays;
-import java.util.List;
 
 @Setter
 @Getter
@@ -44,7 +43,5 @@ public class Demo6 {
                 };
         Arrays.sort(cardVo1);
         System.out.println(Arrays.toString(cardVo1));
-        List list = Arrays.asList(cardVo1);
-        System.out.println(list instanceof List);
     }
 }
